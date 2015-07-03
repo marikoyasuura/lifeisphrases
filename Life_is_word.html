@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>Life is Phrase</title>
+    <link rel="stylesheet" href="toppage_style.css">
+    <link rel="stylesheet" href="textillate-master/assets/animate.css">
+</head>
+<body>
+ <center>
+  <nav>
+  <ul>
+      <li class="nav1">About us</li>
+      <li class="nav2">Today's phrase</li>
+      <li class="nav3">List of phrases</li>
+      </ul>
+      </nav>    
+  <br><br><br>
+  <div class="top-visual">
+  <br><br><br><br><br><br><br><br><br>
+  <h1 class="ef" data-in-effect="rollIn">Life is PHRASE</h1>
+  <p>phrases help you live happily</p>
+</div>
+    <br><br><br><br>
+    <h2 id="aboutus">About us</h2>
+    <br><br>
+    <div class="about_us">
+    <br><br><br><br><br><br>
+    <p1 class="ef" data-in-effect="rollIn">今を生きるすべてのひとへ</p1><br><p2 class="ef" data-in-effect="rollIn">自分の生活に満足しているひと、何か悩みを抱えているひと、</p2><br><p3 class="ef" data-in-effect="rollIn">言葉であなたの生活がもっと豊かになるように</p3><br><p4 class="ef" data-in-effect="rollIn">そんな想いからこのサイトは生まれました。</p4><p5 class="ef" data-in-effect="rollIn"><br>あなたは今何を感じていますか？</p5>
+     </div>
+        <br><br><br>
+    <h3 id="todaysphrases">Today's phrase</h3>
+        <div class="todays_phrases">
+         <br><br><br><br><br>
+         <p6 class="ef" data-in-effect="rollIn">夢中で日を過ごしておれば</p2><br><p2 class="ef" data-in-effect="rollIn">いつかわかる時がくる</p6><br><br><br>
+             <p7>ー坂本龍馬</p7>
+    </div>
+         <br><br><br>
+         
+         <h4 id="listofphrases">List of phrases</h4>
+         <div class="listofphrases">    
+         <img src="images/list-of-phrases_03.png" alt=""> <img src="images/list-of-phrases_05.png" alt="" ></a>
+    <img src="images/list-of-phrases_10.png" alt=""></a>
+     <img src="images/list-of-phrases_12.png" alt=""></a>
+     <img src="images/list-of-phrases2_44.png" alt="">
+     <img src="images/list-of-phrases_17.png" alt=""></a>
+     <img src="images/list-of-phrases_24.png" alt=""></a>
+     <img src="images/list-of-phrases_20.png" alt=""></a>
+     <img src="images/list-of-phrases2_21.png" alt="">
+     <img src="images/list-of-phrases2_25.png" alt="">
+     <img src="images/list-of-phrases2_29.png" alt="">
+     <img src="images/list-of-phrases2_32.png" alt="">
+     <img src="images/list-of-phrases2_36.png" alt="">
+     <img src="images/list-of-phrases2_44.png" alt="">
+     <img src="images/list-of-phrases_03.png" alt="">
+     <img src="images/list-of-phrases2_07.png" alt="">
+</div>
+    </center>
+    <br><br><br><br>
+    <br><br><br><br><br><br>
+    <center>
+        
+        </center>
+    <br><br><br><br><br><br>
+    </center>
+    
+    
+        <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script src="textillate-master/assets/jquery.lettering.js"></script>
+<script src="jquery.textillate.js"></script>
+<script type="text/javascript">
+$('.ef').textillate({
+    in: { effect: 'rollIn' } }); 
+</script>
+<script  src="http://ajax.googleapis.com/alax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script src="textillate-master/assets/jquery.lettering.js"></script>
+<script src="jquery.textillate.js"></script>
+<script type="text/javascript">
+var position = $("#aboutus").offset().top-50;
+$(".nav1").click(function(){
+$('html,body').animate({
+scrollTop : position},{
+    quete :false
+});
+       });
+var position2 = $("#todaysphrases").offset().top-50;
+$(".nav2").click(function(){
+$('html,body').animate({
+scrollTop : position2},{
+    quete :false
+});
+       });
+    var position3 = $("#listofphrases").offset().top-50;
+$(".nav3").click(function(){
+$('html,body').animate({
+scrollTop : position3},{
+    quete :false
+});
+       });
+</script>
+    </body>
+</html>
